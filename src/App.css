@@ -1,0 +1,59 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:xx-large;
+}
+.searchBar{
+width: 50vw;
+height:25px;
+}
+.searchBar:focus{
+outline: none;
+}
+.task{
+  background-color: rgb(166, 180, 180);
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+  width: 40vw;
+  display: flex;
+}
+.taskName{
+  width: 30vw;
+}
+.btn{
+  background-color: rgb(113, 198, 201);
+  border-radius: 4px;
+  color: black;
+  border: 1px solid;
+  margin-left: 20vw;
+}
+.btn-head{
+  background-color: rgb(195, 6, 110);
+  padding: 8px 20px;
+  margin: 5px 4px;
+  border-style: none;
+  color: white;
+}
+.btn-alt{
+  background-color: white;
+  border :1px solid;
+  border-radius: 4px;
+  border-color: rgb(234, 68, 85);
+  padding: 6px;
+}
+.btn:hover{
+  background-color: rgb(161, 205, 206);
+}
+.btn-head:hover{
+  background-color: rgb(220, 47, 142);
+}
+
+.btn-alt:hover{
+  background-color: rgb(234, 68, 85);
+}
